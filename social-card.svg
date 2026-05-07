@@ -1,0 +1,10 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Kyle Mueller social card</title>
+  <desc id="desc">Kyle Mueller is a builder and senior software engineer with 10+ years of experience, always learning and shipping practical software.</desc>
+  <rect width="1200" height="630" fill="#F7F6F1"/>
+  <rect x="72" y="72" width="1056" height="486" rx="32" fill="#123C2C"/>
+  <rect x="112" y="112" width="184" height="184" rx="24" fill="#F7F6F1"/>
+  <text x="204" y="226" fill="#123C2C" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="72" font-weight="800" text-anchor="middle">KM</text>
+  <text x="112" y="404" fill="#F7F6F1" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="82" font-weight="800">Kyle Mueller</text>
+  <text x="116" y="472" fill="#BFE8CF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="42" font-weight="700">Senior Software Engineer</text>
+</svg>
