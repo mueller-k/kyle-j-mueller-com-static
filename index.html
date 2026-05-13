@@ -9,6 +9,7 @@
     />
     <meta name="theme-color" content="#123c2c" />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Kyle Mueller" />
     <meta
       property="og:title"
       content="Kyle Mueller | Senior Software Engineer"
@@ -30,22 +31,34 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Kyle Mueller",
-        "url": "https://kylejmueller.com/",
-        "image": "https://kylejmueller.com/me.png",
-        "jobTitle": "Senior Software Engineer",
-        "email": "mailto:muellerkylej@gmail.com",
-        "description": "Kyle Mueller is a builder and senior software engineer with 10+ years of experience, always learning and shipping practical software.",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Des Moines",
-          "addressRegion": "IA",
-          "addressCountry": "US"
-        },
-        "sameAs": [
-          "https://github.com/mueller-k",
-          "https://www.linkedin.com/in/kyle-mueller-93267b68"
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://kylejmueller.com/#website",
+            "name": "Kyle Mueller",
+            "alternateName": ["Kyle J. Mueller", "kylejmueller.com"],
+            "url": "https://kylejmueller.com/"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://kylejmueller.com/#person",
+            "name": "Kyle Mueller",
+            "url": "https://kylejmueller.com/",
+            "image": "https://kylejmueller.com/me.png",
+            "jobTitle": "Senior Software Engineer",
+            "email": "mailto:muellerkylej@gmail.com",
+            "description": "Kyle Mueller is a builder and senior software engineer with 10+ years of experience, always learning and shipping practical software.",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Des Moines",
+              "addressRegion": "IA",
+              "addressCountry": "US"
+            },
+            "sameAs": [
+              "https://github.com/mueller-k",
+              "https://www.linkedin.com/in/kyle-mueller-93267b68"
+            ]
+          }
         ]
       }
     </script>
